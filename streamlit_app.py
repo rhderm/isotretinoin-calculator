@@ -81,3 +81,11 @@ if calculate_clicked:
         st.write(f"**Weeks needed at current dose ({current_dose} mg) to reach target:** {round(weeks_needed, 1)} weeks")
     else:
         st.write("The cumulative dose has already exceeded the target dose.")
+
+st.markdown("""
+---
+**Disclaimer:**  
+The Isotretinoin Cumulative Dose Calculator is intended for educational purposes only. 
+It is not intended to be used as a substitute for professional medical advice, diagnosis, or treatment. 
+Please consult a healthcare provider for any medical concerns or decisions.
+""")
